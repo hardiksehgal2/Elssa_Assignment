@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
         leading: IconButton(
           icon: Icon(Icons.location_on),
           onPressed: () {
-            // Handle menu icon press
+
           },
         ),
         title: Text('Home'),
@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: Icon(Icons.search),
             onPressed: () {
-              // Handle search icon press
+
             },
           ),
         ],
@@ -103,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Choose(),
               SizedBox(height: 16.0),
               Container(
-                height: 500, // Set a fixed height for SafetyMeasures widget
+                height: 500,
                 child: SafetyMeasures(),
               ),
             ],
